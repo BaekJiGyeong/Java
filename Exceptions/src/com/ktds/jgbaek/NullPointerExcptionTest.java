@@ -4,6 +4,7 @@ public class NullPointerExcptionTest {
 	public void start() {
 
 		String str = null; // 인스턴스화 되어있지 않은 포인트 = nullpoint
+		long number= 10L;
 
 		for ( int i = 0; i < 3; i++ ) {
 			
@@ -12,6 +13,7 @@ public class NullPointerExcptionTest {
 			}
 			else {
 				System.out.println("에러 입니다.");
+				System.out.println(number);
 			}
 			
 		}

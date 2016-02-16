@@ -28,8 +28,10 @@ public class ArrayTest {
 		
 		System.out.println();
 		
-		int scores[] = new int[] { 10, 20, 50 };
-		for ( int score : scores ) {
+	    int scores[] = new int[]{ 10, 20, 50 };
+	    int scoress[] = new int[3];
+	    scoress[0]=1;
+			for ( int score : scores ) {
 			System.out.println(score);			
 		}
 	}
